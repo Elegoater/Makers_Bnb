@@ -124,7 +124,7 @@ def create_home():
     price_per_night = request.form['price_per_night']
     home = Home(None, title, description, location, price_per_night, int(users_id))
     if not home.is_valid():
-        return render_template('login.html', home=home, errors=home.generate_errors()), 400
+        return render_template('create_home.html', home=home, errors=home.generate_errors()), 400
     repository.create_home(title, description, location, price_per_night, int(users_id))
     return redirect(url_for('get_index'))
 
