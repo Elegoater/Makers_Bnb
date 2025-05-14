@@ -1,16 +1,31 @@
-# MakersBnB Python Project Seed
+# Makers BNB
 
-This repo contains the seed codebase for the MakersBnB project in Python (using 
-Flask and Pytest).
+## Description
 
-Someone in your team should fork this seed repo to their GitHub account.
-Everyone in the team should then clone this fork to their local machine to work on it.
+This was a 5 day group project to sum up our Python Foundations course at Makers. In this, we worked from an existing code base and used Python, Flask, and Pytest. The concept is a clone of AirBNB where users are able to create an account, make listings, request bookings for other listings, and accept or deny requests on their own properties.
 
-> NOTE: If you encounter a `ModuleNotFound` error, deactivate and then reactivate your virtual env. If that doesn't help, please reach out to your coach.
+### Structure
 
-## Setup
+This repo contains one application.
 
-```shell
+### Features
+
+- Create account
+- Login to account
+- Create listings including image upload
+- Make requests on properties
+- Approve or deny requests on own properties
+- Interactive calendar for booking dates
+
+## Installation
+
+### Set up the project
+
+1. Fork this repository
+2. Rename the fork
+3. Clone the fork to their local machine
+
+```
 # Set up the virtual environment
 ; python -m venv makersbnb-venv
 
@@ -20,9 +35,8 @@ Everyone in the team should then clone this fork to their local machine to work 
 # Install dependencies
 (makersbnb-venv); pip install -r requirements.txt
 
-# Install the virtual browser we will use for testing
+# Install the virtual browser for testing
 (makersbnb-venv); playwright install
-# If you have problems with the above, contact your coach
 
 # Create a test and development database
 (makersbnb-venv); createdb YOUR_PROJECT_NAME
@@ -39,3 +53,14 @@ Everyone in the team should then clone this fork to their local machine to work 
 
 # Now visit http://localhost:5001/index in your browser
 ```
+
+## Authors and acknowledgment
+
+This project was created by:
+[Emily Sadler](https://github.com/EmiSadler)
+[Benjamin Loveday](https://github.com/StrawberryScot)
+[Etienne LeGoater](https://github.com/elegoater)
+[Fliss Douglas](https://github.com/flissd1795)
+[Kate Bancroft](https://github.com/ki-22)
+
+
